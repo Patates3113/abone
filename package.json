@@ -1,7 +1,7 @@
 {
-  "name": "BlazeeShop",
+  "name": "Patates",
   "version": "4.0.0",
-  "description": "BlazeeShop abone sistemi",
+  "description": "Patates abone sistemi",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"

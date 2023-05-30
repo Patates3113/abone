@@ -10,7 +10,7 @@ exports.run = async (client, message, args) => {
   
 
   database.set(`aboneyetkilisi.${message.guild.id}`, rol.id)
-  message.channel.send("tm")
+  message.channel.send("tmm kanki")
    
 }
 exports.conf = {

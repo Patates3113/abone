@@ -53,7 +53,7 @@ let users = message.mentions.users.first();
           .setColor("#f74d4d")
           if(interaction.user.id !== message.author.id) return interaction.reply({embeds: [embedd], ephemeral: true})
   const embed = new EmbedBuilder()
-  .setTitle(`BlazeeShop - Abone Rol Sistemi!`)
+  .setTitle(`Patates - Abone Rol Sistemi!`)
 .setDescription(`${user} Kullanıcısına Abone Rolü Başarıyla Verildi!`)
    .setColor(`#f74d4d`)
 
@@ -70,7 +70,7 @@ let users = message.mentions.users.first();
       .setColor(`#f74d4d`)
           if(interaction.user.id !== message.author.id) return interaction.reply({embeds: [embedd], ephemeral: true})
             const embed = new EmbedBuilder()
-.setTitle("BlazeeShop - Abone Rol Sistemi!")
+.setTitle("Patates - Abone Rol Sistemi!")
 .setThumbnail(`${message.author.displayAvatarURL({ dynamic: true })}`)
 .setDescription(`${user} Kullanıcısından Abone Rolü Başarıyla Alındı!`)
 .setFooter({ text: `Asked by ${message.author.tag}.`, iconURL: `${message.author.displayAvatarURL({ dynamic: true })}` })

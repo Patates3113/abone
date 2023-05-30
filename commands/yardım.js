@@ -3,7 +3,7 @@ const { EmbedBuilder } = require("discord.js");
 exports.run = async (client, message, args) => {
 
   const embed = new EmbedBuilder()
-  .setColor("#EB459E")
+  .setColor("#ff0105")
   .setTitle(`${message.guild.name} | Commands`)
   .setThumbnail(`${message.author.displayAvatarURL({ dynamic: true })}`)
   .setDescription("`!help`,`!abone-yetkilisi`,`!a`,`!abone-rol`") 
